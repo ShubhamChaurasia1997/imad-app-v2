@@ -1,4 +1,3 @@
-alert("hi");
 var button= document.getElementById('counter');
 var counter=0;
 button.onclick=function(){
@@ -17,6 +16,6 @@ submit.onclick = function(){
     for(var i=0; i<names.lenght; i++){
         list+= '<li>' + names[i] + '</li>';
     }
-var ul=getElememtById('namelist');
+var ul=documentgetElememtById('namelist');
     ul.innnerHTML=list;
 };
