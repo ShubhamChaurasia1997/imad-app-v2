@@ -15,7 +15,7 @@ app.get('/counter',function(req,res){
     res.send(counter.toString());
 });
 
-app.get('/shubh1', function (req, res) {
+app.get('/test-db', function (req, res) {
 res.send('Article 1 will be requested and served here');
     
 });
